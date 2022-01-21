@@ -1,9 +1,8 @@
 from multiprocessing import Pool
-import math
 import numbers
 
 def cube(number):
-    return math.pow(number, 3)
+    return number ** 3
 
 if __name__ == "__main__":
     numbers = range(10)
